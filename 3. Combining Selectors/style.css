@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+#one {
+  color: crimson;
+}
+
+#list_one {
+  color: blue;
+}
+
+.list_two {
+  color: green;
+}
+
+#list_last {
+  list-style: none;
+  font-size: 8px;
+  /* padding-top: 20px; */
+  margin-top: 15px;
+}
