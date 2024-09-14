@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flag of Bangladesh</title>
+    <style>
+      body {
+        background-color: white; /* Changed background color to white */
+        font-size: 1px;
+      }
+      .flag {
+        width: 800px; /* Slightly increased width */
+        height: 480px; /* Slightly increased height */
+        background-color: #006a4e;
+        position: relative;
+      }
+      .flag::after {
+        content: "";
+        top: 80px;
+        left: 240px;
+        position: absolute;
+        width: 300px; /* Adjusted circle size */
+        height: 300px; /* Adjusted circle size */
+        border-radius: 80%;
+        background-color: #f42a41;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .text {
+        position: absolute;
+        top: 230px;
+        left: 390px;
+        color: white;
+        font-size: 42px; /* Increased font size */
+        font-weight: bold;
+        text-align: center;
+        padding: 30px;
+        width: 240px;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        line-height: 1.4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flag">
+      <div class="text">
+        The flag of <br />
+        Bangladesh <br />
+      </div>
+    </div>
+  </body>
+</html>
